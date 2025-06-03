@@ -115,8 +115,8 @@ function Home() {
                 className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9]"
             >
                 
-                <div className="w-full flex sm:flex items-center justify-between  ">
-                    <div className="logo w-[20vh] h-[20vh] sm:w-[25vh] sm:h-[18vh] cursor-pointer z-[9] flex items-center">
+                <div className="w-full flex items-center justify-between">
+                    <div className="logo w-[15vh] h-[15vh] xs:w-[18vh] xs:h-[18vh] sm:w-[25vh] sm:h-[18vh] cursor-pointer z-[9] flex items-center">
                         {/* logo */}
                         <img src={currentLogo} alt="POSSPOLE MedTech Logo" width="100%" height="100%" className="object-contain transition-all duration-500" />
                     </div>                   
@@ -185,17 +185,16 @@ function Home() {
                     
                         <BiMenu
                             style={{
-                            
-                            fontSize: "5.5vw",
+                            fontSize: "8vw",
                             }}
-                            className=' inline-block sm:hidden z-[9] cursor-pointer'
+                            className='inline-block sm:hidden z-[9] cursor-pointer p-2'
                         />  
                  
                     
                 </div>
             </motion.div>
 
-            <div className='btmtext absolute z-[4] bottom-[4%] left-[25%] text-center sm:text-start sm:bottom-[7%] sm:left-8 w-48 '>
+            <div className='btmtext absolute z-[4] bottom-[4%] left-[5%] xs:left-[15%] sm:left-8 text-center xs:text-start sm:text-start sm:bottom-[7%] w-[90%] xs:w-48 sm:w-48'>
                 <h1 className='sm:text-[2vh] font-semibold'>
                     POSSPOLE MedTech.
                     Creating. Manufacturing. Training.

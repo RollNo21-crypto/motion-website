@@ -112,32 +112,32 @@ function Services() {
   }, container);
 
   return (
-    <div ref={container} className="section w-full py-20" data-color="white">
-      <div className="container mx-auto px-8">
-        <div className="text-center mb-16">
-          <h2 className="services-heading text-[5vh] sm:text-[6vh] font-[SansitaBold] mb-6">Our Services</h2>
-          <p className="text-[2.2vh] max-w-3xl mx-auto font-[Sansita] leading-[3.2vh]">
+    <div ref={container} className="section w-full py-12 xs:py-16 sm:py-20" data-color="white">
+      <div className="container mx-auto px-4 xs:px-6 sm:px-8">
+        <div className="text-center mb-10 xs:mb-12 sm:mb-16">
+          <h2 className="services-heading text-[4vh] xs:text-[4.5vh] sm:text-[6vh] font-[SansitaBold] mb-4 xs:mb-6">Our Services</h2>
+          <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] max-w-3xl mx-auto font-[Sansita] leading-[2.8vh] xs:leading-[3.2vh]">
             Comprehensive healthcare technology solutions designed to transform patient care and clinical outcomes
           </p>
         </div>
 
         {/* Vision and Mission Section */}
-        <div className={`${styles.visionMissionContainer} mb-20`}>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className={`${styles.visionMissionContainer} mb-12 xs:mb-16 sm:mb-20`}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xs:gap-8">
             {/* Vision Card */}
-            <div className={`${styles.visionCard} vision-mission-card relative overflow-hidden p-10 rounded-lg border border-[--black]`}>
+            <div className={`${styles.visionCard} vision-mission-card relative overflow-hidden p-6 xs:p-8 sm:p-10 rounded-lg border border-[--black]`}>
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#f5f19c] to-transparent"></div>
               <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-[#f5f19c] to-transparent"></div>
               <div className="flex flex-col h-full">
-                <h3 className="text-[4vh] font-[SansitaBold] mb-6 vision-mission-title">Our Vision</h3>
+                <h3 className="text-[3vh] xs:text-[3.5vh] sm:text-[4vh] font-[SansitaBold] mb-4 xs:mb-6 vision-mission-title">Our Vision</h3>
                 <div className="vision-mission-content">
-                  <p className="text-[2.2vh] font-[Sansita] leading-[3.5vh]">
+                  <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] font-[Sansita] leading-[2.8vh] xs:leading-[3vh] sm:leading-[3.5vh]">
                     We strive to contribute meaningfully to global healthcare by enabling accessible, reliable medical technologies that support clinicians and improve patient well-being. Through collaboration, quality, and innovation, we aim to make healthcare simpler, safer, and more effective for communities everywhere.
                   </p>
                 </div>
-                <div className="mt-auto pt-6">
-                  <div className={`${styles.pulseCircle} w-12 h-12 rounded-full bg-[#f5f19c] flex items-center justify-center`}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="mt-auto pt-4 xs:pt-6">
+                  <div className={`${styles.pulseCircle} w-10 h-10 xs:w-12 xs:h-12 rounded-full bg-[#f5f19c] flex items-center justify-center`}>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12 5V19" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       <path d="M19 12L12 19L5 12" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -147,19 +147,19 @@ function Services() {
             </div>
 
             {/* Mission Card */}
-            <div className={`${styles.missionCard} vision-mission-card relative overflow-hidden p-10 rounded-lg border border-[--black]`}>
+            <div className={`${styles.missionCard} vision-mission-card relative overflow-hidden p-6 xs:p-8 sm:p-10 rounded-lg border border-[--black]`}>
               <div className="absolute bottom-0 right-0 w-full h-1 bg-gradient-to-l from-[#f5f19c] to-transparent"></div>
               <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-t from-[#f5f19c] to-transparent"></div>
               <div className="flex flex-col h-full">
-                <h3 className="text-[4vh] font-[SansitaBold] mb-6 vision-mission-title">Our Mission</h3>
+                <h3 className="text-[3vh] xs:text-[3.5vh] sm:text-[4vh] font-[SansitaBold] mb-4 xs:mb-6 vision-mission-title">Our Mission</h3>
                 <div className="vision-mission-content">
-                  <p className="text-[2.2vh] font-[Sansita] leading-[3.5vh]">
+                  <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] font-[Sansita] leading-[2.8vh] xs:leading-[3vh] sm:leading-[3.5vh]">
                     We design, manufacture, and deliver advanced medical solutions through expert collaboration, innovative research, and comprehensive training. Committed to quality and compliance, we empower healthcare providers with reliable, user-friendly technologies that enhance patient outcomes, optimize clinical workflows, and broaden access to effective care worldwide.
                   </p>
                 </div>
-                <div className="mt-auto pt-6">
-                  <div className={`${styles.pulseCircle} w-12 h-12 rounded-full bg-[#f5f19c] flex items-center justify-center`}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="mt-auto pt-4 xs:pt-6">
+                  <div className={`${styles.pulseCircle} w-10 h-10 xs:w-12 xs:h-12 rounded-full bg-[#f5f19c] flex items-center justify-center`}>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12 5V19" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       <path d="M19 12L12 19L5 12" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -170,11 +170,11 @@ function Services() {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xs:gap-8 sm:gap-10">
           {/* Service 1 */}
-          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-8 rounded-lg`}>
-            <div className="flex items-start gap-6">
-              <div className="icon-container w-[10vh] h-[10vh] flex-shrink-0">
+          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-6 xs:p-7 sm:p-8 rounded-lg`}>
+            <div className="flex flex-col xs:flex-row items-start gap-4 xs:gap-6">
+              <div className="icon-container w-[8vh] h-[8vh] xs:w-[9vh] xs:h-[9vh] sm:w-[10vh] sm:h-[10vh] flex-shrink-0 mb-2 xs:mb-0">
                 <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
                   <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -183,9 +183,9 @@ function Services() {
                 </svg>
               </div>
               <div className="content">
-                <h3 className={`${styles.serviceTitle} text-[3.5vh] font-[SansitaBold] mb-4`}>Create Our Own MedTech Products</h3>
-                <p className="text-[2.2vh] mb-4 font-[Sansita]">Branded POSSPOLE products developed with our expertise, research capabilities, and manufacturing facilities.</p>
-                <ul className="list-disc pl-6 text-[2vh] space-y-2 font-[Sansita]">
+                <h3 className={`${styles.serviceTitle} text-[2.8vh] xs:text-[3vh] sm:text-[3.5vh] font-[SansitaBold] mb-2 xs:mb-4`}>Create Our Own MedTech Products</h3>
+                <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] mb-2 xs:mb-4 font-[Sansita]">Branded POSSPOLE products developed with our expertise, research capabilities, and manufacturing facilities.</p>
+                <ul className="list-disc pl-4 xs:pl-6 text-[1.6vh] xs:text-[1.8vh] sm:text-[2vh] space-y-1 xs:space-y-2 font-[Sansita]">
                   <li>Leveraging our know-how and expertise</li>
                   <li>Utilizing our makers space and research facilities</li>
                   <li>In-house manufacturing capabilities</li>
@@ -198,8 +198,8 @@ function Services() {
           
           {/* Service 2 */}
           <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-8 rounded-lg`}>
-            <div className="flex items-start gap-6">
-              <div className="icon-container w-[10vh] h-[10vh] flex-shrink-0">
+            <div className="flex flex-col xs:flex-row items-start gap-4 xs:gap-6">
+              <div className="icon-container w-[8vh] h-[8vh] xs:w-[9vh] xs:h-[9vh] sm:w-[10vh] sm:h-[10vh] flex-shrink-0 mb-2 xs:mb-0">
                 <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.2" d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z" fill="currentColor"></path>
                   <path opacity="0.2" d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z" fill="currentColor"></path>
@@ -212,9 +212,9 @@ function Services() {
                 </svg>
               </div>
               <div className="content">
-                <h3 className={`${styles.serviceTitle} text-[3.5vh] font-[SansitaBold] mb-4`}>Partner with Curated Companies</h3>
-                <p className="text-[2.2vh] mb-4 font-[Sansita]">Co-create innovative medical products with carefully selected partner companies.</p>
-                <ul className="list-disc pl-6 text-[2vh] space-y-2 font-[Sansita]">
+                <h3 className={`${styles.serviceTitle} text-[2.8vh] xs:text-[3vh] sm:text-[3.5vh] font-[SansitaBold] mb-2 xs:mb-4`}>Partner with Curated Companies</h3>
+                <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] mb-2 xs:mb-4 font-[Sansita]">Co-create innovative medical products with carefully selected partner companies.</p>
+                <ul className="list-disc pl-4 xs:pl-6 text-[1.6vh] xs:text-[1.8vh] sm:text-[2vh] space-y-1 xs:space-y-2 font-[Sansita]">
                   <li>Branding depends on the partnership agreement</li>
                   <li>Providing specialized expertise missing in partner companies</li>
                   <li>Access to our makers space and research facilities</li>
@@ -226,9 +226,9 @@ function Services() {
           </div>
           
           {/* Service 3 */}
-          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-8 rounded-lg`}>
-            <div className="flex items-start gap-6">
-              <div className="icon-container w-[10vh] h-[10vh] flex-shrink-0">
+          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-6 xs:p-7 sm:p-8 rounded-lg`}>
+            <div className="flex flex-col xs:flex-row items-start gap-4 xs:gap-6">
+              <div className="icon-container w-[8vh] h-[8vh] xs:w-[9vh] xs:h-[9vh] sm:w-[10vh] sm:h-[10vh] flex-shrink-0 mb-2 xs:mb-0">
                 <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.2" d="M50 38.2155L40.8007 47.4147C40.5565 47.659 40.2532 47.8358 39.9204 47.928C39.5875 48.0201 39.2365 48.0246 38.9014 47.9408L24.4122 44.3185C24.1404 44.2506 23.886 44.1263 23.6653 43.9537L10 33.268L18.1436 17.9475L30.9736 14.2071C31.4319 14.0735 31.9229 14.1082 32.3578 14.3051L41 18.2155H35.8284C35.5658 18.2155 35.3057 18.2672 35.0631 18.3677C34.8204 18.4682 34.5999 18.6155 34.4142 18.8012L24.6306 28.5848C24.428 28.7875 24.2713 29.0313 24.1711 29.2997C24.0709 29.5682 24.0295 29.855 24.0498 30.1408C24.0702 30.4267 24.1517 30.7048 24.2888 30.9564C24.426 31.208 24.6156 31.4271 24.8448 31.5991L26.2 32.6155C27.5848 33.654 29.269 34.2155 31 34.2155C32.731 34.2155 34.4152 33.654 35.8 32.6155L39 30.2155L50 38.2155Z" fill="currentColor"></path>
                   <path d="M60.1794 30.4462L54 33.5359L46 18.2154L52.2423 15.0942C52.7113 14.8597 53.2536 14.8188 53.7525 14.9802C54.2514 15.1416 54.6669 15.4925 54.9096 15.9573L61.0578 27.7316C61.1808 27.967 61.2556 28.2246 61.2779 28.4892C61.3002 28.7539 61.2696 29.0204 61.1878 29.2731C61.1061 29.5258 60.9748 29.7596 60.8016 29.9611C60.6285 30.1625 60.417 30.3274 60.1794 30.4462V30.4462Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -237,9 +237,9 @@ function Services() {
                 </svg>
               </div>
               <div className="content">
-                <h3 className={`${styles.serviceTitle} text-[3.5vh] font-[SansitaBold] mb-4`}>Trade Products from 3rd Party Companies</h3>
-                <p className="text-[2.2vh] mb-4 font-[Sansita]">Exclusive distribution rights for selected medical technology products in specific markets.</p>
-                <ul className="list-disc pl-6 text-[2vh] space-y-2 font-[Sansita]">
+                <h3 className={`${styles.serviceTitle} text-[2.8vh] xs:text-[3vh] sm:text-[3.5vh] font-[SansitaBold] mb-2 xs:mb-4`}>Trade Products from 3rd Party Companies</h3>
+                <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] mb-2 xs:mb-4 font-[Sansita]">Exclusive distribution rights for selected medical technology products in specific markets.</p>
+                <ul className="list-disc pl-4 xs:pl-6 text-[1.6vh] xs:text-[1.8vh] sm:text-[2vh] space-y-1 xs:space-y-2 font-[Sansita]">
                   <li>Securing exclusive rights for trading in specific markets</li>
                   <li>Building dedicated sales teams and infrastructure</li>
                   <li>Establishing service and customer support teams</li>
@@ -250,9 +250,9 @@ function Services() {
           </div>
           
           {/* Service 4 */}
-          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-8 rounded-lg`}>
-            <div className="flex items-start gap-6">
-              <div className="icon-container w-[10vh] h-[10vh] flex-shrink-0">
+          <div className={`service-card ${styles.serviceCard} bg-white border border-[--black] p-6 xs:p-7 sm:p-8 rounded-lg`}>
+            <div className="flex flex-col xs:flex-row items-start gap-4 xs:gap-6">
+              <div className="icon-container w-[8vh] h-[8vh] xs:w-[9vh] xs:h-[9vh] sm:w-[10vh] sm:h-[10vh] flex-shrink-0 mb-2 xs:mb-0">
                 <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.2" d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" fill="currentColor"></path>
                   <path d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -260,9 +260,9 @@ function Services() {
                 </svg>
               </div>
               <div className="content">
-                <h3 className={`${styles.serviceTitle} text-[3.5vh] font-[SansitaBold] mb-4`}>MedTech Related Services</h3>
-                <p className="text-[2.2vh] mb-4 font-[Sansita]">Comprehensive support services for the medical technology industry.</p>
-                <ul className="list-disc pl-6 text-[2vh] space-y-2 font-[Sansita]">
+                <h3 className={`${styles.serviceTitle} text-[2.8vh] xs:text-[3vh] sm:text-[3.5vh] font-[SansitaBold] mb-2 xs:mb-4`}>MedTech Related Services</h3>
+                <p className="text-[1.8vh] xs:text-[2vh] sm:text-[2.2vh] mb-2 xs:mb-4 font-[Sansita]">Comprehensive support services for the medical technology industry.</p>
+                <ul className="list-disc pl-4 xs:pl-6 text-[1.6vh] xs:text-[1.8vh] sm:text-[2vh] space-y-1 xs:space-y-2 font-[Sansita]">
                   <li>Manufacturing support</li>
                   <li>Compliance services (quality, regulatory, and clinical)</li>
                   <li>Marketing assets (design, website development)</li>
@@ -274,7 +274,7 @@ function Services() {
           </div>
         </div>
         
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center mt-10 xs:mt-12 sm:mt-16">
           <Button bgColor="bg-[#f5f19c]" text="EXPLORE ALL SERVICES" />
         </div>
       </div>
