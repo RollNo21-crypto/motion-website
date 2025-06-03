@@ -8,6 +8,7 @@ import Para from './components/Paragraph/Index'
 import Para2 from './components/Paragraph2/Index'
 import Real from './components/Real/Index'
 import Team from './components/Team/Index'
+import Services from './components/Services/Index'
 import LocomotiveScroll from 'locomotive-scroll';
 import Footer from './components/Footer/Index';
 
@@ -52,7 +53,10 @@ function App() {
       <Home  />
       <Craft />
       <Real />
+      <Services />
+      
       <Team  />
+     
       <Para  />
       <Para2 />
       <Capsule />

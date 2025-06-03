@@ -12,21 +12,21 @@ import PropTypes from 'prop-types';
 function Row({ translateClass, direction }) {
 
     const items = [
-        { text: "useful", image: img7 },
+        { text: "reliable", image: img7 },
         { text: "intuitive", image: img2 },     
-        { text: "empathetic", image: img3 },     
-        { text: "useful", image: img4 },     
-        { text: "empathetic", image: img5 },
-        { text: "intuitive", image: img2 },
-        { text: "useful", image: img4 },     
-        { text: "empathetic", image: img5 },
-        { text: "intuitive", image: img2 },     
-        { text: "empathetic", image: img6 },
-        { text: "useful", image: img1 },      
-        { text: "empathetic", image: img6 },
-        { text: "empathetic", image: img5 },
-        { text: "intuitive", image: img2 },
-        { text: "useful", image: img4 },
+        { text: "innovative", image: img3 },     
+        { text: "precise", image: img4 },     
+        { text: "advanced", image: img5 },
+        { text: "compliant", image: img2 },
+        { text: "certified", image: img4 },     
+        { text: "clinical", image: img5 },
+        { text: "supportive", image: img2 },     
+        { text: "research-driven", image: img6 },
+        { text: "quality", image: img1 },      
+        { text: "regulatory", image: img6 },
+        { text: "training", image: img5 },
+        { text: "manufacturing", image: img2 },
+        { text: "ISO 13485", image: img4 },
                       
     ]
 

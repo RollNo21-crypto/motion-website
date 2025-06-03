@@ -14,15 +14,15 @@ import { gsap } from "gsap";
 import { Power4} from 'gsap/gsap-core';
 
 const data = [
-    {key: 1, title: "Dr. Rick McCartney", role: "CEO", img: img1},
-    {key: 2, title: "Chris Koha", role: "COO", img: img2},
-    {key: 3, title: "Caroline Nieto", role: "Chief Product Officer", img: img3},
-    {key: 4, title: "Victor Albertos", role: "CTO", img: img4},
-    {key: 5, title: "Dr. Jana Hapfelmeier", role: "Chief Innovation Officer", img: img5},
-    {key: 6, title: "Michael Robin", role: "VP of Marketing", img: img6},
-    {key: 7, title: "Adrian Rubio", role: "VP of Engineering", img: img7},
-    {key: 8, title: "Cy Serrano", role: "VP of Product", img: img8},
-    {key: 9, title: "Lenya McGrath", role: "VP of Partnerships", img: img9},
+    {key: 1, title: "Dr. Sarah Chen", role: "CEO & Medical Director", img: img1},
+    {key: 2, title: "Dr. James Wilson", role: "Chief Medical Officer", img: img2},
+    {key: 3, title: "Emily Rodriguez", role: "Chief Product Officer", img: img3},
+    {key: 4, title: "Michael Zhang", role: "CTO", img: img4},
+    {key: 5, title: "Dr. Priya Sharma", role: "Head of Research & Development", img: img5},
+    {key: 6, title: "David Park", role: "VP of Marketing", img: img6},
+    {key: 7, title: "Sophia Lee", role: "VP of Biomedical Engineering", img: img7},
+    {key: 8, title: "Dr. Robert Johnson", role: "Clinical Integration Director", img: img8},
+    {key: 9, title: "Olivia Martinez", role: "VP of Healthcare Partnerships", img: img9},
 ]
 
 

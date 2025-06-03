@@ -92,14 +92,14 @@ function Craft() {
                 className="ptag font-[Sansita] text-[2.6vh] sm:text-[2.9vh] 
                 font-medium leading-[4.4vh] sm:leading-[4.2vh] "
             >
-                Significo is a custom health software developer founded on the belief
-                that technology can transform healthcare to put people first. We put
-                humanity back at the center of healthcare by simplifying complexity,
-                accelerating capacity, and improving outcomes.
+                MedTech Solutions is a pioneering healthcare technology company founded on the belief
+                that innovative technology can revolutionize patient care. We combine cutting-edge AI,
+                data analytics, and medical expertise to create solutions that enhance diagnostic accuracy,
+                streamline clinical workflows, and improve patient outcomes.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">We Craft Human-Centric Health Software</h1>
+            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">Advanced Technology for Better Healthcare</h1>
             {/* button */}
-            <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
+            <Button  bgColor="bg-none" text="EXPLORE SOLUTIONS" />
         </div>
         <div
             ref={container} 
